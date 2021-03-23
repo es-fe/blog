@@ -2,14 +2,14 @@
 
 set -e
 
-npm run docs:build
+yarn docs:build
 
-cd docs/.vuepress/dist
+cd docs/.vitepress/dist
 
 git init
 git add -A
 git commit -m 'deploy'
 
- git push -f git@github.com:es-fe/blog.git master:gh-pages
+git push -f https://github.com/es-fe/blog.git master:gh-pages
 
 cd -
