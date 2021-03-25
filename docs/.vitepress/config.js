@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     displayAllHeaders: true,
     sidebar: [
-      { text: '前端DSL实践指南', link: '/前端DSL实践指南' },
+      { text: '前端DSL实践', link: '/dsl'},
     ]
   }
 }

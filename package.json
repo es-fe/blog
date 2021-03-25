@@ -6,7 +6,6 @@
   "author": "江铓 <jiang.mang@shipout.cn>",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/theme-blog": "^2.3.3",
     "vitepress": "^0.12.2"
   },
   "scripts": {

@@ -1,16 +1,20 @@
----
-home: true
-heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
-features:
-- title: 简洁至上d
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-  footer: MIT Licensed | Copyright © 2018-present Evan You
----
+## 文档编写指南
+1. 拉取代码： `git clone https://github.com/es-fe/blog.git`
+
+
+2. 分支切换到main
+   
+
+2. 安装依赖： `yarn`   
+   
+
+3. 在docs文件夹目录下新建md文件。
+   
+
+4. 在.vitepress/config.js新建路由。
+   
+
+5. 开发模式查看： `yarn docs:dev`
+   
+
+6. 发布： `yarn deply`
